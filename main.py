@@ -70,7 +70,7 @@ def main():
     methods = [bisection_method, newton_method, secant_method]
     def_epsilon = 0.00001
 
-    polynomial = [5, 0, -25]  # example: [5, 0, -25] is x^2 - 25 = 0
+    polynomial = [1, 0, -25]  # example: [1, 0, -25] is x^2 - 25
     polynomial_derivative = derivative(polynomial)
 
     start_point = -10
